@@ -1,0 +1,46 @@
+.sidebar {
+  padding-left: 20%;
+  padding-top: 30px;
+  margin-top: -25px;
+}
+.khoahoc body {
+  /* margin: 0; */
+  @media only screen and (max-width: 200px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+}
+.khoahoc ul {
+  list-style-type: none;
+  margin-left: -300px;
+  margin-top: 100px;
+  padding: 0;
+  width: 20%;
+  height: 50%;
+  background-color: #e9d8f4;
+  /* position: relative; */
+  position: absolute;
+  overflow: auto;
+}
+.khoahoc li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.khoahoc li a.active {
+  background-color: #58257b;
+  font-weight: bold;
+  color: white;
+}
+.khoahoc li a:hover:not(.active) {
+  background-color: #db7093;
+  font-weight: bold;
+  color: white;
+}
+.Pagination {
+  position: relative;
+
+  margin-left: 40%;
+}

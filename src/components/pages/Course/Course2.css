@@ -1,0 +1,58 @@
+.container .bgheader {
+  background-image: url(https://cdn2.topica.vn/5f990e55cb5acb5e85ce27a9/product/619bcdab6d05dc00250104cd);
+  background-size: cover;
+  background-position: center;
+  /* width: 1519px; */
+  height: 300px;
+  margin: 0;
+}
+.container .page3 {
+  width: 100%;
+  background: linear-gradient(
+    191.1deg,
+    rgba(255, 192, 67, 0) 14.17%,
+    rgba(255, 192, 67, 0.28) 105.12%
+  );
+}
+.container .page3 .page3con {
+  margin: 0px 2%;
+  background: #fff;
+  box-shadow: 0px 0px 16px rgb(0 0 0 / 10%);
+  padding-top: 48px;
+  padding-bottom: 50px;
+}
+/* .container .page3 .bannerL {
+    padding-left: 20%;
+    max-width: 50%;
+    height: 100px;
+    font-size: medium;
+  }
+  .container .page3 .bannerL h1 {
+    margin-bottom: 0px;
+  }
+  .container .page3 .bannerL h3 {
+    padding-left: 2px;
+    margin-top: 2px;
+  }
+  .container .page3 .bannerR {
+    padding-left: 30%;
+    padding-top: 10px;
+    max-width: 50%;
+    height: 100px;
+  }
+  .container .page3 .bannerR input {
+    font-size: 20px;
+  }
+  .container .page3 .bannerR button {
+    font-size: large;
+  }
+  .container .content1 {
+    width: 40%;
+    height: 200px;
+    margin-left: 20%;
+    border: solid 0.2px;
+  } */
+
+.muigrid {
+  padding: 20px;
+}

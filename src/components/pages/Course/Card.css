@@ -1,0 +1,11 @@
+/* .card-detail {
+  text-transform: capitalize;
+
+} */
+.card-img-hover img {
+  width: 400px;
+  height: 250px;
+}
+.card-body {
+  padding-left: 0;
+}

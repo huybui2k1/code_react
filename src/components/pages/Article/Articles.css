@@ -1,0 +1,355 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  } */
+
+/* Css article */
+
+.article-header {
+  height: 350px;
+  background: linear-gradient(0, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://www.jobstreet.com.ph/career-resources/wp-content/uploads/sites/3/2022/04/Laptop-Specs-For-Work-From-Home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.article-title {
+  color: #fff;
+  font-size: 4.5rem;
+  font-weight: bolder;
+  text-align: center;
+  width: 90vw;
+}
+
+.article-body {
+  width: 90vw;
+  position: relative;
+  max-width: calc(100%-10vw);
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.article-container {
+  width: 56vw;
+  margin-right: 2vw;
+}
+
+.article-container > img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.article-container h1 {
+  margin: 20px 0;
+}
+
+.article-container p {
+  line-height: 28px;
+  color: #3f3f3f;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+.img-line {
+  display: flex;
+  width: 33.33%;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.img-line > img {
+  width: 100%;
+  padding: 0 8px;
+}
+
+.fa-leaf {
+  color: #ff9900;
+}
+
+.time-n-cmt-info {
+  margin: 36px 0 8px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  color: #888888;
+}
+
+.time-n-cmt-info .fa-calendar {
+  color: #ff9900;
+}
+
+.time-n-cmt-info .fa-comments {
+  color: #ff9900;
+}
+
+.time-info {
+  margin-right: 30px;
+}
+
+.article-container hr {
+  margin: 36px 0;
+  border: solid 1px #ff9900;
+}
+
+/* css morepost */
+
+.list-sidebar {
+  width: 30vw;
+}
+
+.list-sidebar-container {
+  background-color: #f4f5f8;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-radius: 10px;
+}
+
+.list-sidebar-body {
+  margin: 0 24px;
+}
+
+.list-sidebar-header {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.list-sidebar-container hr {
+  border: solid 2px #ff9900;
+  border-radius: 2px;
+  margin: 24px 0;
+}
+
+.list-sidebar-card {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  background-color: #fff;
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 16px;
+  border: solid 0.3px #eeeeee;
+  border-radius: 5px;
+}
+
+.list-sidebar-card:hover {
+  cursor: pointer;
+}
+
+.list-sidebar-card-img {
+  height: 100%;
+  width: 80px;
+  object-fit: cover;
+  border-radius: 5px 0 0 5px;
+}
+
+.list-sidebar-card-img:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.list-sidebar-card-body {
+  margin-left: 5px;
+}
+
+.list-sidebar-title {
+  font-size: 1.1rem;
+  padding-top: 2px;
+}
+
+.list-sidebar-title:hover {
+  color: #ff9900;
+  cursor: pointer;
+}
+
+.list-sidebar-count {
+  font-size: 0.6rem;
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+}
+
+/* css comment */
+
+.cmt_container {
+  margin-top: 28px;
+  margin-bottom: 52px;
+}
+
+.cmt-header {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.cmt-note {
+  color: #888888;
+  margin-top: 20px;
+}
+
+.cmt-form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  border-radius: 3px;
+  border: none;
+  background-color: #f4f5f8;
+  padding-left: 12px;
+}
+
+input:focus {
+  outline: 2px solid#FF9900;
+  background-color: #fff;
+}
+
+textarea {
+  height: 200px;
+  width: 100%;
+  margin: 18px 0 8px;
+  border-radius: 3px;
+  border: none;
+  background-color: #f4f5f8;
+  padding-left: 12px;
+  padding-top: 12px;
+}
+
+textarea:focus {
+  outline: solid 2px #ff9900;
+  background-color: #fff;
+}
+
+.cmt-input-name {
+  width: 100%;
+  height: 50px;
+  margin: 8px 0;
+}
+
+.cmt-input-mail {
+  width: 49%;
+  height: 50px;
+  float: left;
+  margin: 8px 1% 8px 0;
+}
+
+.cmt-input-web {
+  width: 49%;
+  height: 50px;
+  width: 49%;
+  margin: 8px 0 8px 1%;
+}
+
+.cmt-checkbox {
+  color: #888888;
+  margin: 8px 0;
+}
+
+.cmt-post-bnt {
+  margin: 8px 0;
+  width: 40%;
+  height: 50px;
+  background-color: #ff9900;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 3px;
+}
+
+/* responsive */
+
+@media screen and (max-width: 990px) {
+  .article-body {
+    width: 90vw;
+    position: relative;
+    max-width: calc(100%-10vw);
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+  }
+
+  .article-container {
+    width: 80vw;
+    margin: 0;
+  }
+
+  .list-sidebar {
+    width: 80vw;
+    margin: 0;
+  }
+
+  .list-sidebar-container {
+    background-color: #f4f5f8;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-radius: 10px;
+  }
+
+  .list-sidebar-title {
+    font-size: 1.2rem;
+    padding-top: 2px;
+    padding-left: 2px;
+  }
+
+  .article-title {
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    text-align: center;
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 764px) {
+  .cmt-input-mail {
+    width: 100%;
+    height: 50px;
+    margin: 8px 0;
+  }
+
+  .cmt-input-web {
+    width: 100%;
+    height: 50px;
+    margin: 8px 0;
+  }
+
+  .cmt-post-bnt {
+    width: 100%;
+    height: 35px;
+    font-size: 0.8rem;
+  }
+
+  .article-title {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .article-header {
+    height: 250px;
+  }
+
+  .article-title {
+    font-size: 2.5rem;
+  }
+
+  .list-sidebar-title {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .list-sidebar-title {
+    font-size: 0.8rem;
+  }
+}

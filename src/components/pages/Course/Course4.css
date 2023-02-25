@@ -1,0 +1,14 @@
+.all_tong {
+  padding-left: 21%;
+}
+@media screen and (max-width: 837px) {
+  .all_tong {
+    width: 45%;
+    margin: 0 2.5% 60px;
+  }
+}
+@media screen and (max-width: 725px) {
+  .all_tong {
+    width: 100%;
+  }
+}
